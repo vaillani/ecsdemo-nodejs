@@ -20,7 +20,7 @@ spec:
         app: ecsdemo-nodejs
     spec:
       containers:
-      - image: brentley/ecsdemo-nodejs:latest
+      - image: learnk8s/knote-js:1.0.0
         imagePullPolicy: Always
         name: ecsdemo-nodejs
         ports:
